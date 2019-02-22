@@ -13,5 +13,13 @@
     {% include "layout/menu.html" %}
     <h1>ig;gris_2919</h1>
     
+
+    <ul>
+        {% for blog in blogs %}
+        <li>{{ blog.judul }}</li>
+        {% endfor %} 
+    </ul>
+
+    <h1>HALLO;)</h1>
 </body>
 </html>

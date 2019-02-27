@@ -7,16 +7,10 @@
     <title>my blog</title>
 </head>
 <body>
-
-    <h1>WELCOME TO MY BLOG</h1>
-
-    {% include "layout/menu.html" %}
-    <h1>ig;gris_2919</h1>
-    
-
-    <ul>
+    <h1>welcome myblog</h1>
+       <ul>
         {% for blog in blogs %}
-        <li>{{ blog.judul }}</li>
+        <h3>{{ blog.judul }}</h3>
         {% endfor %} 
     </ul>
 
